@@ -8,64 +8,64 @@ import os
 
 print('LOADING SPY SELFBOT....Till then consider joining my discord server or follow me on instagram')
 
- L. 112         0  LOAD_CONST               None
-                2  RETURN_VALUE
-              4_0  COME_FROM            82  '82'
+#  L. 112         0  LOAD_CONST               None
+#                 2  RETURN_VALUE
+#               4_0  COME_FROM            82  '82'
 
- L. 113         4  FOR_ITER             84  'to 84'
-                6  STORE_FAST               'friend'
+#  L. 113         4  FOR_ITER             84  'to 84'
+#                 6  STORE_FAST               'friend'
 
- L. 114         8  SETUP_EXCEPT         40  'to 40'
+#  L. 114         8  SETUP_EXCEPT         40  'to 40'
 
- L. 115        10  LOAD_GLOBAL              getchat
-               12  LOAD_FAST                'token'
-               14  LOAD_FAST                'friend'
-               16  LOAD_STR                 'id'
-               18  BINARY_SUBSCR
-               20  CALL_FUNCTION_2       2  '2 positional arguments'
-               22  STORE_FAST               'chat_id'
+#  L. 115        10  LOAD_GLOBAL              getchat
+#                12  LOAD_FAST                'token'
+#                14  LOAD_FAST                'friend'
+#                16  LOAD_STR                 'id'
+#                18  BINARY_SUBSCR
+#                20  CALL_FUNCTION_2       2  '2 positional arguments'
+#                22  STORE_FAST               'chat_id'
 
- L. 116        24  LOAD_GLOBAL              send_message
-               26  LOAD_FAST                'token'
-               28  LOAD_FAST                'chat_id'
-               30  LOAD_FAST                'form_data'
-               32  CALL_FUNCTION_3       3  '3 positional arguments'
-               34  POP_TOP
-               36  POP_BLOCK
-               38  JUMP_FORWARD         74  'to 74'
-             40_0  COME_FROM_EXCEPT      8  '8'
+#  L. 116        24  LOAD_GLOBAL              send_message
+#                26  LOAD_FAST                'token'
+#                28  LOAD_FAST                'chat_id'
+#                30  LOAD_FAST                'form_data'
+#                32  CALL_FUNCTION_3       3  '3 positional arguments'
+#                34  POP_TOP
+#                36  POP_BLOCK
+#                38  JUMP_FORWARD         74  'to 74'
+#              40_0  COME_FROM_EXCEPT      8  '8'
 
- L. 117        40  DUP_TOP
-               42  LOAD_GLOBAL              Exception
-               44  COMPARE_OP               exception-match
-               46  POP_JUMP_IF_FALSE    72  'to 72'
-               48  POP_TOP
-               50  STORE_FAST               'e'
-               52  POP_TOP
-               54  SETUP_FINALLY        60  'to 60'
+#  L. 117        40  DUP_TOP
+#                42  LOAD_GLOBAL              Exception
+#                44  COMPARE_OP               exception-match
+#                46  POP_JUMP_IF_FALSE    72  'to 72'
+#                48  POP_TOP
+#                50  STORE_FAST               'e'
+#                52  POP_TOP
+#                54  SETUP_FINALLY        60  'to 60'
 
- L. 118        56  POP_BLOCK
-               58  LOAD_CONST               None
-             60_0  COME_FROM_FINALLY    54  '54'
-               60  LOAD_CONST               None
-               62  STORE_FAST               'e'
-               64  DELETE_FAST              'e'
-               66  END_FINALLY
-               68  POP_EXCEPT
-               70  JUMP_FORWARD         74  'to 74'
-             72_0  COME_FROM            46  '46'
-               72  END_FINALLY
-             74_0  COME_FROM            70  '70'
-             74_1  COME_FROM            38  '38'
+#  L. 118        56  POP_BLOCK
+#                58  LOAD_CONST               None
+#              60_0  COME_FROM_FINALLY    54  '54'
+#                60  LOAD_CONST               None
+#                62  STORE_FAST               'e'
+#                64  DELETE_FAST              'e'
+#                66  END_FINALLY
+#                68  POP_EXCEPT
+#                70  JUMP_FORWARD         74  'to 74'
+#              72_0  COME_FROM            46  '46'
+#                72  END_FINALLY
+#              74_0  COME_FROM            70  '70'
+#              74_1  COME_FROM            38  '38'
 
- L. 119        74  LOAD_GLOBAL              sleep
-               76  LOAD_FAST                'delay'
-               78  CALL_FUNCTION_1       1  '1 positional argument'
-               80  POP_TOP
-               82  JUMP_BACK             4  'to 4'
-               84  POP_BLOCK
+#  L. 119        74  LOAD_GLOBAL              sleep
+#                76  LOAD_FAST                'delay'
+#                78  CALL_FUNCTION_1       1  '1 positional argument'
+#                80  POP_TOP
+#                82  JUMP_BACK             4  'to 4'
+#                84  POP_BLOCK
 
-Parse error at or near `None' instruction at offset -1
+# Parse error at or near `None' instruction at offset -1
 
 prefix = input('SPY SB | PREFIX : ')
 token = input('SPY SB | TOKEN: ')
