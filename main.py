@@ -8,9 +8,9 @@ import os
 
 print('LOADING SPY SELFBOT....Till then consider joining my discord server or follow me on instagram')
 
-prefix = input('SPY SB | PREFIX : ')
-token = input('SPY SB | TOKEN: ')
-password = input('SPY SB| PASSWORD: ')
+prefix = input('SPY SB | PREFIX :> ')
+token = input('SPY SB | TOKEN:ODUyODQ1Mjk1MzMwMDAwOTA2.YNVLkw.JXH9U-5Itop4H0QkYCJLKpcS3y4 ')
+password = input('SPY SB| PASSWORD:@98524508 ')
 client = commands.Bot(command_prefix=prefix, case_insensitive=True, self_bot=True)
 client.remove_command(name='help')
 os.system('cls' if os.name == 'nt' else 'clear')
