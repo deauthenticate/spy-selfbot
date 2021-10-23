@@ -1069,7 +1069,7 @@ async def masskick(ctx, guild):
     members.close()
 
 if token_type == "user":
-                SPYSBOP.run(risinencrypt, bot=False)
+                SPYSBOP.run(risinencrypt, bot=True)
 elif token_type == "bot":
                 SPYSBOP.run(risinencrypt)
 
