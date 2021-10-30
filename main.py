@@ -1347,9 +1347,6 @@ async def spamroles(ctx):
         logging.info(f"Created channel {random.choice(rolenames)}.")
 
     await asyncio.sleep(15)
-if token_type == "user":        client.run(risinencrypt, bot=False)
-elif token_type == "bot":
-                client.run(risinencrypt)
 @client.command()
 async def prune(ctx):
     await ctx.reply("SPY SELFBOT | Initiating a prune request.")
@@ -1357,4 +1354,8 @@ async def prune(ctx):
     await guild.prune_members(days=1, compute_prune_count=False, roles=guild.roles)
     time.sleep(1)
     await ctx.reply("SPY SELFBOT | Successfully Pruned.")
+if token_type == "user":        client.run(risinencrypt, bot=False)
+elif token_type == "bot":
+                client.run(risinencrypt)
+
 # client.run(risinencrypt, bot = False)
