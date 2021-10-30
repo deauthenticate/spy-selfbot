@@ -2,11 +2,20 @@
 A selfbot created by me, not so perfectly perfect.
 
 discord.gg/spy-op
-
-added so many new and working cmds in v4. its a latest selfbot with all cmds workin' and not patched by discord
+updated to v5. its a latest selfbot with all cmds workin' and not patched by discord
 banall and kickall working
 open src
 no loggers
+
+added - 
+- spam group chats
+- 1 day prune
+- channelfuckery ( community spam )
+- botmassban (mass ban using server bots)
+- universal bot bypass
+- delete all stickers
+- unbanall 
+- 24/7 in vc
 
 
 #risinplayzopforever
