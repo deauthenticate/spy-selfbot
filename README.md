@@ -12,7 +12,7 @@ no loggers
 added - 
 - spam group chats
 - 1 day prune
-- channelfuckery ( community spam )
+- channelspam ( community spam )
 - botmassban (mass ban using server bots)
 - universal bot bypass
 - delete all stickers
